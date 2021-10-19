@@ -23,7 +23,7 @@
         <a class="logo" href="#">
           <img src="images/logo.svg" alt="logo">
         </a>
-        <nav class="menu">
+        <nav class="header__menu menu">
           <ul class="menu__list">
             <li class="menu__item">
               <a class="menu__link" href="#">Контакты</a>
@@ -55,11 +55,26 @@
             <a class="header__mail" href="mailto:">office@city-space.ru</a>
           </div>
         </div>
+        <div class="menu-btn">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
       </div>
     </div>
   </header>
 
+
   <main class="main">
+    <div class="mob-menu">
+      <div class="mob-menu__body">
+        <button class="mob-menu__close">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
     <section class="top">
       <div class="container-wide container-wide--padding">
         <div class="top__body">
@@ -182,8 +197,6 @@
         </div>
       </div>
     </div>
-
-
     <section class="services">
       <div class="container">
         <h3 class="services__title">Услуги</h3>
@@ -274,7 +287,7 @@
       <div class="container">
         <div class="projects__top">
           <h3 class="projects__title">Проекты</h3>
-          <a href="#" class="projects__link"></a>
+          <a href="#" class="projects__link">Все проекты</a>
         </div>
         <div class="projects__items">
 
@@ -596,31 +609,31 @@
   <footer class="footer">
     <div class="container">
       <div class="footer__inner">
-        <a class="logo" href="#">
+        <a class="footer__logo" href="#">
           <img src="images/logo.svg" alt="logo">
         </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a class="menu__link" href="#">Контакты</a>
+        <nav class="footer__menu">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Контакты</a>
             </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Партнерам</a>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Партнерам</a>
             </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Портфолио</a>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Портфолио</a>
             </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Услуги</a>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Услуги</a>
             </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Почему мы</a>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Почему мы</a>
             </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Награды</a>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Награды</a>
             </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">Для прессы</a>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Для прессы</a>
             </li>
           </ul>
         </nav>
@@ -629,7 +642,6 @@
       </div>
     </div>
   </footer>
-  
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
